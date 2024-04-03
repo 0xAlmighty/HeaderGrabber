@@ -37,7 +37,7 @@ func displayBanner() {
 func displayHelp() {
 	color.Yellow("Default value if running without options: 127.0.0.1:8080\n")
 	color.Yellow("Usage: headergrabber [OPTIONS]\n")
-	color.Yellow("  -ip <ip>   		Specify the address to listen on")
+	color.Yellow("  -ip <ip>   	Specify the address to listen on")
 	color.Yellow("  -port <port>    Specify the port the server will listen on")
 	color.Yellow("  -h, --help      Display this help message and exit")
 }
